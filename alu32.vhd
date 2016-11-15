@@ -12,7 +12,7 @@ entity alu32 is
            alu_result : out  STD_LOGIC_VECTOR (31 downto 0);
 			  c : in  STD_LOGIC);
 end alu32;
-
+--Prueba
 architecture arq_alu of alu32 is
  signal entero_crs2: integer;
 begin
